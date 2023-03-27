@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import MyComponent from './components/MyComponent';
+import ButtonComponent from './components/ButtonComponent';
+import ImageComponent from './components/ImageComponent';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <ImageComponent src = "https://www.google.it/url?sa=i&url=https%3A%2F%2Fwww.toptal.com%2Freact%2Freact-context-api&psig=AOvVaw2_gGBw3cKLCuld9TGFRVJX&ust=1680007381951000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKjE3auR_P0CFQAAAAAdAAAAABAS" alt="Foto React"/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,8 +19,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <MyComponent />
         </a>
+          <ButtonComponent id = "button" content = "Invia"/>
       </header>
     </div>
   );
