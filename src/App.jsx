@@ -11,7 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <ImageComponent src = "https://www.google.it/url?sa=i&url=https%3A%2F%2Fwww.toptal.com%2Freact%2Freact-context-api&psig=AOvVaw2_gGBw3cKLCuld9TGFRVJX&ust=1680007381951000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKjE3auR_P0CFQAAAAAdAAAAABAS" alt="Foto React"/>
+        <ImageComponent src = "https://kinsta.com/it/wp-content/uploads/sites/2/2022/07/what-is-react-js-feature-image.png " alt="Foto React"/>
         <a
           className="App-link"
           href="https://reactjs.org"
